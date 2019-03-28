@@ -46,7 +46,7 @@ public class Main {
 
 	         // Now set the actual message
 	       
-	         messageBodyPart.setText("<html><body><h1 style =\"color:blue;\">Atasez imaginea<h1></body></html>");
+	         messageBodyPart.setText("Atasez imaginea aici");
 
 	         // Create a multipar message
 	         Multipart multipart = new MimeMultipart();
