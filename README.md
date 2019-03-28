@@ -15,8 +15,6 @@ La instalarea a doua librarii am putut pe lar utiliza diferite functii care au p
 				+ "\n\n Fara spam!");
 
 			Transport.send(message);```
-			
-			Rezultatul obtinut :
 
 
 			
