@@ -8,7 +8,7 @@ public class Main {
 
 		//completeaza cu detaliile reale de pe gmail-u tau
 		final String username = "batrinace@mail.ru";
-		final String password = "zubnoi";
+		final String password = "******";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", "true");
