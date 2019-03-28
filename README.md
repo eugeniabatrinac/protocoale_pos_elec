@@ -4,3 +4,15 @@ Serverul utilizat `SMTP`-este un protocol de rețea utilizat pe scară largă, c
 
 La instalarea a doua librarii am putut pe lar utiliza diferite functii care au permis indeplinirea sarcinii propuse
 
+```
+Message message = new MimeMessage(session);
+			message.setFrom(new InternetAddress("batrinace@mail.ru"));
+			message.setRecipients(Message.RecipientType.TO,
+				InternetAddress.parse("batrinace@mail.ru"));
+			message.setSubject("Laboratorul 4");
+			message.setText("Primul meu mesaj,"
+				+ "\n\n Fara spam!");
+
+			Transport.send(message);
+      ```
+      
