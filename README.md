@@ -2,8 +2,10 @@
 
 Serverul utilizat `SMTP`-este un protocol de rețea utilizat pe scară largă, conceput pentru trimiterea de e-mail prin rețelele TCP / IP.
 
-La instalarea a doua librarii am putut pe lar utiliza diferite functii care au permis indeplinirea sarcinii propuse
+Rezulatul obtinu:
+<p> <img src="Screenshot_2.png" align="center" width="500"></p>
 
+La instalarea a doua librarii am putut pe lar utiliza diferite functii care au permis indeplinirea sarcinii propuse
 ```Message message = new MimeMessage(session);
 			message.setFrom(new InternetAddress("batrinace@mail.ru"));
 			message.setRecipients(Message.RecipientType.TO,
@@ -14,12 +16,14 @@ La instalarea a doua librarii am putut pe lar utiliza diferite functii care au p
 
 			Transport.send(message);```
 			
+			Rezultatul obtinut :
+
+
 			
+	
 		
 		
-Rezultatul obtinut :
-			
-			
+		
 			
 			
     
